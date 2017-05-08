@@ -1,0 +1,31 @@
+.bg-black {
+  background-color: #{$black};
+
+  p, h2 {
+    color: #{$white};
+  }
+}
+.bg-gray {
+  background-color: #{$gray};
+
+  p, h2 {
+    color: #{$black};
+  }
+}
+.bg-white {
+  background-color: #{$white};
+
+  p, h2 {
+    color: #{$black};
+  }
+}
+.bg-yellow {
+  background-color: #{$yellow};
+  p, h2 {
+    color: #{$black};
+  }
+}
+.bg-mixed {
+  background-image: url('/images/background_white.svg');
+  background-size: cover;
+}

@@ -1,0 +1,42 @@
+.sponsors {
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+
+  .big {
+    align-items: center;
+    height: 100%;
+    margin: 5px 50px;
+    img {
+      max-width: 70%;
+      padding: 10px 5px;
+    }
+  }
+  .medium {
+    align-items: center;
+    height: 100%;
+    margin: 10px 20px;
+    img {
+      width: 55vw;
+      max-width: 45%;
+      padding: 10px 5px;
+    }
+  }
+  .small {
+    margin: 0 10px;
+    img {
+      width: 45vw;
+      max-width: 30%;
+      padding: 10px 5px;
+    }
+  }
+}

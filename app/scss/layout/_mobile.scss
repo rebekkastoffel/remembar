@@ -1,0 +1,138 @@
+@media screen and (max-width: #{$mobile-width}) {
+  @extend %mobile-fluid;
+
+  .full {
+    overflow: hidden;
+    .center {
+      blockquote {
+        font-size: 0.85rem !important;
+        max-height: 303px !important;
+        overflow: hidden !important;
+      }
+    }
+    p {
+      padding: {
+        left: 30px!important;
+        right: 30px !important;
+      }
+      font-size: 0.9rem !important;
+      &.centered {
+        text-align: justify !important;
+        justify-content: center !important;
+        //padding: 10px 20px !important;
+      }
+      &.columns {
+        width: auto !important;
+        -webkit-column-count: 1 !important; /* Chrome, Safari, Opera */
+        -moz-column-count: 1 !important; /* Firefox */
+        column-count: 1 !important;
+      }
+      &.offer {
+        padding: {
+          top: 10px !important;
+          //left: 20px !important;
+          //right: 20px !important;
+        }
+      }
+    }
+  }
+  .half {
+    width: 100% !important;
+    height: 50% !important;
+
+    .quarter {
+      .inner {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        width: 70vw !important;
+        font-size: 0.7rem !important;
+
+
+        &.contact {
+          width: 100% !important;
+        }
+
+      }
+      h2 {
+        font-size: 1rem !important;
+      }
+      &.empty {
+        display: none !important;
+      }
+    }
+  }
+  #wrapper  {
+    h1 {
+      font-size: 2rem;
+      max-width: 70vw;
+    }
+    svg {
+      height: 100vh;
+    }
+  }
+  #tags, #wo, #was {
+    .full {
+      min-height: 100vh;
+      height: auto;
+    }
+  }
+  .timetable {
+    .event {
+      font-size: 0.6rem;
+    }
+    .heading {
+      font-size: 0.8rem;
+    }
+    .event, .heading{
+      width: 95%;
+
+
+      .right {
+        a {
+          display: block;
+          padding: {
+            left: 0;
+            top: 5px;
+          }
+        }
+      }
+    }
+  }
+  .sponsors {
+    .big {
+      margin: 10px;
+      img {
+        max-width:100%;
+      }
+    }
+    .medium {
+      img {
+        width: auto;
+        max-width: 50%;
+      }
+    }
+    .small {
+      img {
+        width: auto;
+      }
+    }
+  }
+  #map {
+    width: 90vw;
+    margin: auto;
+    float: none;
+    height: 50vh;
+  }
+  header {
+    #logo {
+      width: 20vw !important;
+
+      &.smaller {
+        width: 20vw !important;
+      }
+    }
+  }
+}

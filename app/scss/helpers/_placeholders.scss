@@ -1,0 +1,42 @@
+%mobile-fluid {
+  &:after {
+    padding-bottom: 0;
+  }
+
+  .inner {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+}
+%flex {
+  display: flex;
+}
+%flex-center {
+  @extend %flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%ratio9-16{
+  &:after {
+    content: " ";
+    display: block;
+    //padding-bottom: 56.25%;
+  }
+}
+
+%ratio6-9{
+  &:after {
+    content: " ";
+    display: block;
+    padding-bottom: 85%;
+  }
+}
+
+%ratio9-12{
+  &:after {
+    content: " ";
+    display: block;
+    //padding-bottom: 75%;
+  }
+}
